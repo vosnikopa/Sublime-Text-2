@@ -1,0 +1,7 @@
+How to install: 
+
+1. Open your Sublime Text 2 settings folder (/Library/Application\ Support/Sublime\ Text\ 2)
+2. Delete Content / Back up in a different folder (optional)
+3. fork repository into /Library/Application\ Support/Sublime\ Text\ 2
+   in terminal execute 
+    git clone git@github.com:vosnikopa/Sublime-Text-2.git
