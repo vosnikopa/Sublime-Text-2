@@ -1,6 +1,9 @@
-// Place user-specific overrides in this file, to ensure they're preserved
-// when upgrading
 {
-	"theme": "Soda Dark.sublime-theme",
-	"open_files_in_new_window": false
+	"ignored_packages":
+	[
+		"Vintage",
+		"C#"
+	],
+	"open_files_in_new_window": false,
+	"theme": "Soda Dark.sublime-theme"
 }

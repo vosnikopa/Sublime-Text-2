@@ -1,11 +1,13 @@
 {
-	"auto_upgrade_last_run": 1328186390,
+	"auto_upgrade_last_run": 1328778053,
 	"installed_packages":
 	[
 		"copy-file-name",
 		"Goto-CSS-Declaration",
 		"Package Control",
 		"SideBarEnhancements",
-		"SublimeCodeIntel"
+		"SideBarGit",
+		"SublimeCodeIntel",
+		"SyncedSideBar"
 	]
 }
