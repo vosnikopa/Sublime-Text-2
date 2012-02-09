@@ -689,20 +689,10 @@
 			"buffers":
 			[
 				{
-					"contents": "Searching 10045 files for \"#travel-table\"\n\n/Projects/merger/public/css/hotel/hotel_ratings.css:\n   80  }\n   81  \n   82: #travel-table-top {\n   83  	background: url(/img/hotels/ratings/tabletop.png);\n   84  	background-repeat: no-repeat;\n   ..\n   86  	border: none;\n   87  }\n   88: #travel-table {\n   89  	width: 612px;\n   90  	border-collapse: collapse;\n   91  }\n   92: table#travel-table td {\n   93  	border: 1px solid #CBDAEB;\n   94  	height: 37px;\n   ..\n   97  	width: 225px;\n   98  }\n   99: #travel-table label {\n  100  	display: block;\n  101  	cursor: pointer;\n  ...\n  309  }\n  310  \n  311: #travel-table td.validation-error {\n  312  	height: auto;\n  313  	text-align: left;\n\n5 matches in 1 file\n\n\nSearching 10045 files for \"travel-table\"\n\n/Projects/merger/application/modules/admin/views/scripts/hotel/rating/_form.phtml:\n   36  				<?= $f->errorsOn('cleanRating') ?>\n   37  				<?= $f->errorsOn('serviceRating') ?>\n   38: 				<table id=\"travel-table-top\">\n   39  					<tr>\n   40  						<td class=\"first-row\" style=\"width: 140px;\">Evaluation</td>\n   ..\n   46  					</tr>\n   47  				</table>\n   48: 				<table id=\"travel-table\">\n   49  					<tr>\n   50  						<td class=\"left-td\">Price/Quality Ratio<span class=\"star\">*</span></td>\n\n/Projects/merger/application/modules/admin/views/scripts/hotelrating/edit.phtml:\n  132  		<?= '<div>'._warn('ratingScore', $this->messages).'</div>'; ?>\n  133  		<br />\n  134: 	    <table id=\"travel-table-top\">\n  135  		<tr>\n  136  		    <td class=\"first-row\" style=\"width: 150px;\">Αξιολόγηση</td>\n  ...\n  142  		</tr>\n  143  	    </table>\n  144: 	    <table id=\"travel-table\">\n  145  		<tr>\n  146  		    <td class=\"left-td\">Σχέση τιμής/ποιότητας <span class=\"star\">*</span></td>\n\n/Projects/merger/application/modules/hotel/views/scripts/rating/new.phtml:\n   59  		<div id=\"ratingOptions\">\n   60  			<br /><br />\n   61: 			<table id=\"travel-table-top\">\n   62  				<tr>\n   63  					<td class=\"first-row\" style=\"width: 115px;\"><?= t('Evaluation') ?></td>\n   ..\n   69  				</tr>\n   70  			</table>\n   71: 			<table id=\"travel-table\">\n   72  				<? if ($f->errorsOn('priceQualityRating')) :?><tr><td class=\"validation-error\" colspan=\"<?= count($this->hotelRating()->ratingValues()) + 1 ?>\"><?= $f->errorsOn('priceQualityRating') ?></td></tr><? endif ?>\n   73  				<tr>\n\n/Projects/merger/public/css/hotel/hotel_ratings.css:\n   80  }\n   81  \n   82: #travel-table-top {\n   83  	background: url(/img/hotels/ratings/tabletop.png);\n   84  	background-repeat: no-repeat;\n   ..\n   86  	border: none;\n   87  }\n   88: #travel-table {\n   89  	width: 612px;\n   90  	border-collapse: collapse;\n   91  }\n   92: table#travel-table td {\n   93  	border: 1px solid #CBDAEB;\n   94  	height: 37px;\n   ..\n   97  	width: 225px;\n   98  }\n   99: #travel-table label {\n  100  	display: block;\n  101  	cursor: pointer;\n  ...\n  309  }\n  310  \n  311: #travel-table td.validation-error {\n  312  	height: auto;\n  313  	text-align: left;\n\n11 matches across 4 files\n",
-					"settings":
-					{
-						"buffer_size": 2967,
-						"line_ending": "Unix",
-						"name": "Find Results",
-						"scratch": true
-					}
-				},
-				{
 					"file": "/Projects/merger/application/modules/hotel/views/scripts/rating/new.phtml",
 					"settings":
 					{
-						"buffer_size": 8032,
+						"buffer_size": 8089,
 						"line_ending": "Unix"
 					}
 				},
@@ -710,7 +700,7 @@
 					"file": "/Projects/merger/public/css/hotel/hotel_ratings.css",
 					"settings":
 					{
-						"buffer_size": 4874,
+						"buffer_size": 4884,
 						"line_ending": "Unix"
 					}
 				}
@@ -718,7 +708,7 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 375.0,
+				"height": 336.0,
 				"selected_items":
 				[
 					[
@@ -766,7 +756,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 435.0
+				"width": 588.0
 			},
 			"console":
 			{
@@ -783,6 +773,7 @@
 			},
 			"file_history":
 			[
+				"/Users/travelplanet24mac/Library/Application Support/Sublime Text 2/README",
 				"/Projects/merger/application/modules/admin/views/scripts/hotel/rating/_form.phtml",
 				"/Users/travelplanet24mac/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
 				"/Projects/merger/application/modules/admin/views/scripts/flight/show/_servicePackage.phtml",
@@ -829,7 +820,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 91.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"/Projects/merger",
@@ -895,118 +886,15 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"settings":
-							{
-								"buffer_size": 2967,
-								"regions":
-								{
-									"match":
-									{
-										"flags": 112,
-										"regions":
-										[
-											[
-												120,
-												133
-											],
-											[
-												281,
-												294
-											],
-											[
-												375,
-												388
-											],
-											[
-												495,
-												508
-											],
-											[
-												596,
-												609
-											],
-											[
-												944,
-												956
-											],
-											[
-												1119,
-												1131
-											],
-											[
-												1429,
-												1441
-											],
-											[
-												1600,
-												1612
-											],
-											[
-												1871,
-												1883
-											],
-											[
-												2053,
-												2065
-											],
-											[
-												2381,
-												2393
-											],
-											[
-												2542,
-												2554
-											],
-											[
-												2636,
-												2648
-											],
-											[
-												2756,
-												2768
-											],
-											[
-												2857,
-												2869
-											]
-										],
-										"scope": ""
-									}
-								},
-								"selection":
-								[
-									[
-										1878,
-										1878
-									]
-								],
-								"settings":
-								{
-									"detect_indentation": false,
-									"output_tag": 2,
-									"result_base_dir": "",
-									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-									"result_line_regex": "^ +([0-9]+):",
-									"scroll_past_end": true,
-									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 191.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
 							"file": "/Projects/merger/application/modules/hotel/views/scripts/rating/new.phtml",
 							"settings":
 							{
-								"buffer_size": 8032,
+								"buffer_size": 8089,
 								"regions":
 								{
 								},
@@ -1019,7 +907,8 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 2.0,
@@ -1028,19 +917,19 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
+							"buffer": 1,
 							"file": "/Projects/merger/public/css/hotel/hotel_ratings.css",
 							"settings":
 							{
-								"buffer_size": 4874,
+								"buffer_size": 4884,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2029,
-										2037
+										0,
+										0
 									]
 								],
 								"settings":
